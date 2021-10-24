@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Random Color Generator</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-center">
+            <h4>Colors Names</h4>
+            <ul class="nav-links">
+                <li><a href="name.html">BY NAMES</a></li>
+                <li><a href="hex.html">BY HEX</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <h2>Color Name: <span class="color">WhiteSmoke</span></h2>
+            <button class="btn btn-gen" id="btn">Generate</button>
+            <button onclick="copy()" class="btn btn-copy" id="copy">Copy</button>
+            <button onclick="prev()" class="btn btn-prev" id="prev">Previous</button>
+        </div>
+    </main>
+    <script src="name.js"></script>
+</body>
+
+</html>
